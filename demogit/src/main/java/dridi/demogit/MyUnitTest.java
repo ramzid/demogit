@@ -14,6 +14,7 @@ public void testbefore() {
     public void testadd() {
         MyUnit myUnit = new MyUnit();
         int result = myUnit.add(1, 2);
+        
         assertEquals(3, result);
     }
     
